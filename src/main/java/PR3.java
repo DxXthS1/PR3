@@ -15,13 +15,12 @@ public class PR3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    int x=5;
-    int y=6;
+    double x=5,y=5;
     if (x>y){
-        System.out.printf("Число %d больше %d",x,y);
+        System.out.println("Число"+" "+x+" "+"больше"+" "+y);
     }
     else if (x<y){
-        System.out.printf("Число %d меньше %d\n",x,y);
+        System.out.println("Число"+" "+x+" "+"меньше"+" "+y);
     }
     else{
         System.out.println("Числа равны");
